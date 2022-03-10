@@ -84,6 +84,4 @@ btnHold.addEventListener('click', function () {
 });
 
 // Start a new game when new game button is pressed
-btnNew.addEventListener('click', function () {
-    init();
-});
+btnNew.addEventListener('click', init);
